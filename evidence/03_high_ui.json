@@ -1,0 +1,38 @@
+{
+  "tests": [
+    {
+      "id": 0,
+      "test": "Fasting glucose",
+      "value": "118",
+      "unit": "mg/dL",
+      "reference_range": "70-99",
+      "source": "Fasting glucose | 118 | mg/dL | 70-99",
+      "status": "High",
+      "comparison_note": "Compared with the printed inclusive interval.",
+      "validation_notes": [],
+      "test_meaning": "Fasting glucose measures blood sugar levels after not eating for a few hours.",
+      "explanation": "Fasting glucose measures blood sugar levels after not eating for a few hours. This value is outside the report's printed range on the high side. Discuss the result with your clinician."
+    },
+    {
+      "id": 1,
+      "test": "Total cholesterol",
+      "value": "225",
+      "unit": "mg/dL",
+      "reference_range": "<200",
+      "source": "Total cholesterol | 225 | mg/dL | <200",
+      "status": "High",
+      "comparison_note": "Compared with the printed threshold, preserving its strictness.",
+      "validation_notes": [
+        "unit copied from the verified source table cell.",
+        "reference_range copied from the verified source table cell."
+      ],
+      "test_meaning": "Total cholesterol tests the amount of cholesterol in the blood.",
+      "explanation": "Total cholesterol tests the amount of cholesterol in the blood. This value is outside the report's printed range on the high side. Discuss the result with your clinician."
+    }
+  ],
+  "warnings": [],
+  "disclaimer": "Not medical advice — consult a doctor. Verify extracted values against the original report.",
+  "model": "qwen2.5-1.5b",
+  "provider": "llama.cpp",
+  "extraction_attempts": 1
+}

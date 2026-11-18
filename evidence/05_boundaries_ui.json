@@ -1,0 +1,48 @@
+{
+  "tests": [
+    {
+      "id": 0,
+      "test": "Hemoglobin",
+      "value": "12.0",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "source": "Hemoglobin | 12.0 | g/dL | 12.0-16.0",
+      "status": "Within range",
+      "comparison_note": "Compared with the printed inclusive interval.",
+      "validation_notes": [],
+      "test_meaning": "Hemoglobin is a protein found in red blood cells that carries oxygen throughout the body.",
+      "explanation": "Hemoglobin is a protein found in red blood cells that carries oxygen throughout the body. This value is within the report's printed range; this alone does not establish good health."
+    },
+    {
+      "id": 1,
+      "test": "Total cholesterol",
+      "value": "200",
+      "unit": "mg/dL",
+      "reference_range": "<200",
+      "source": "Total cholesterol | 200 | mg/dL | <200",
+      "status": "High",
+      "comparison_note": "Compared with the printed threshold, preserving its strictness.",
+      "validation_notes": [],
+      "test_meaning": "Total cholesterol measures the amount of cholesterol in the blood, which is important for heart health.",
+      "explanation": "Total cholesterol measures the amount of cholesterol in the blood, which is important for heart health. This value is outside the report's printed range on the high side. Discuss the result with your clinician."
+    },
+    {
+      "id": 2,
+      "test": "CRP",
+      "value": "<5",
+      "unit": "mg/L",
+      "reference_range": "0-5",
+      "source": "CRP | <5 | mg/L | 0-5",
+      "status": "Not assessed",
+      "comparison_note": "Result is qualitative, censored or not a plain number.",
+      "validation_notes": [],
+      "test_meaning": "CRP stands for C-reactive protein, which is a marker for inflammation in the body.",
+      "explanation": "CRP stands for C-reactive protein, which is a marker for inflammation in the body. A reliable numerical comparison is unavailable for this row. Ask your clinician to interpret it."
+    }
+  ],
+  "warnings": [],
+  "disclaimer": "Not medical advice — consult a doctor. Verify extracted values against the original report.",
+  "model": "qwen2.5-1.5b",
+  "provider": "llama.cpp",
+  "extraction_attempts": 1
+}

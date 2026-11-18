@@ -1,0 +1,5 @@
+SYNTHETIC LAB REPORT - teaching example only
+Test | Result | Unit | Reference range
+Hemoglobin | 12.0 | g/dL | 12.0-16.0
+Total cholesterol | 200 | mg/dL | <200
+CRP | <5 | mg/L | 0-5

@@ -1,0 +1,48 @@
+{
+  "tests": [
+    {
+      "id": 0,
+      "test": "Hemoglobin",
+      "value": "14.2",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "source": "Hemoglobin | 14.2 | g/dL | 12.0-16.0",
+      "status": "Within range",
+      "comparison_note": "Compared with the printed inclusive interval.",
+      "validation_notes": [],
+      "test_meaning": "Hemoglobin is a protein in red blood cells that carries oxygen.",
+      "explanation": "Hemoglobin is a protein in red blood cells that carries oxygen. This value is within the report's printed range; this alone does not establish good health."
+    },
+    {
+      "id": 1,
+      "test": "WBC",
+      "value": "7.1",
+      "unit": "10^9/L",
+      "reference_range": "4.0-11.0",
+      "source": "WBC | 7.1 | 10^9/L | 4.0-11.0",
+      "status": "Within range",
+      "comparison_note": "Compared with the printed inclusive interval.",
+      "validation_notes": [],
+      "test_meaning": "White blood cells (WBC) are part of the immune system that fights infections.",
+      "explanation": "White blood cells (WBC) are part of the immune system that fights infections. This value is within the report's printed range; this alone does not establish good health."
+    },
+    {
+      "id": 2,
+      "test": "Platelets",
+      "value": "250",
+      "unit": "10^9/L",
+      "reference_range": "150-450",
+      "source": "Platelets | 250 | 10^9/L | 150-450",
+      "status": "Within range",
+      "comparison_note": "Compared with the printed inclusive interval.",
+      "validation_notes": [],
+      "test_meaning": "Platelets are cell fragments that help blood clotting.",
+      "explanation": "Platelets are cell fragments that help blood clotting. This value is within the report's printed range; this alone does not establish good health."
+    }
+  ],
+  "warnings": [],
+  "disclaimer": "Not medical advice — consult a doctor. Verify extracted values against the original report.",
+  "model": "qwen2.5-1.5b",
+  "provider": "llama.cpp",
+  "extraction_attempts": 1
+}

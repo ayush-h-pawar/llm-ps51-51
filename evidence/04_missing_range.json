@@ -1,0 +1,49 @@
+{
+  "sample": "04_missing_range.txt",
+  "recorded_at_utc": "2026-11-18T15:28:55.385355+00:00",
+  "seconds": 10.24,
+  "expected": [
+    "Not assessed",
+    "Not assessed"
+  ],
+  "actual": [
+    "Not assessed",
+    "Not assessed"
+  ],
+  "passed": true,
+  "result": {
+    "tests": [
+      {
+        "id": 0,
+        "test": "Vitamin D",
+        "value": "22",
+        "unit": "ng/mL",
+        "reference_range": "",
+        "source": "Vitamin D | 22 | ng/mL |",
+        "status": "Not assessed",
+        "comparison_note": "No single supported numeric reference range was printed.",
+        "validation_notes": [],
+        "test_meaning": "Vitamin D is a nutrient that helps the body absorb calcium and maintain strong bones.",
+        "explanation": "Vitamin D is a nutrient that helps the body absorb calcium and maintain strong bones. A reliable numerical comparison is unavailable for this row. Ask your clinician to interpret it."
+      },
+      {
+        "id": 1,
+        "test": "CRP",
+        "value": "Negative",
+        "unit": "",
+        "reference_range": "Negative",
+        "source": "CRP | Negative | | Negative",
+        "status": "Not assessed",
+        "comparison_note": "Result is qualitative, censored or not a plain number.",
+        "validation_notes": [],
+        "test_meaning": "CRP stands for C-reactive protein, which is a marker of inflammation in the body.",
+        "explanation": "CRP stands for C-reactive protein, which is a marker of inflammation in the body. A reliable numerical comparison is unavailable for this row. Ask your clinician to interpret it."
+      }
+    ],
+    "warnings": [],
+    "disclaimer": "Not medical advice — consult a doctor. Verify extracted values against the original report.",
+    "model": "qwen2.5-1.5b",
+    "provider": "llama.cpp",
+    "extraction_attempts": 1
+  }
+}

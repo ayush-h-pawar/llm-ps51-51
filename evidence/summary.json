@@ -1,0 +1,76 @@
+[
+  {
+    "sample": "01_normal.txt",
+    "recorded_at_utc": "2026-11-18T15:28:23.847391+00:00",
+    "seconds": 17.85,
+    "expected": [
+      "Within range",
+      "Within range",
+      "Within range"
+    ],
+    "actual": [
+      "Within range",
+      "Within range",
+      "Within range"
+    ],
+    "passed": true
+  },
+  {
+    "sample": "02_low.txt",
+    "recorded_at_utc": "2026-11-18T15:28:34.782777+00:00",
+    "seconds": 10.94,
+    "expected": [
+      "Low",
+      "Low"
+    ],
+    "actual": [
+      "Low",
+      "Low"
+    ],
+    "passed": true
+  },
+  {
+    "sample": "03_high.txt",
+    "recorded_at_utc": "2026-11-18T15:28:45.144872+00:00",
+    "seconds": 10.36,
+    "expected": [
+      "High",
+      "High"
+    ],
+    "actual": [
+      "High",
+      "High"
+    ],
+    "passed": true
+  },
+  {
+    "sample": "04_missing_range.txt",
+    "recorded_at_utc": "2026-11-18T15:28:55.385355+00:00",
+    "seconds": 10.24,
+    "expected": [
+      "Not assessed",
+      "Not assessed"
+    ],
+    "actual": [
+      "Not assessed",
+      "Not assessed"
+    ],
+    "passed": true
+  },
+  {
+    "sample": "05_boundaries.txt",
+    "recorded_at_utc": "2026-11-18T15:29:12.736442+00:00",
+    "seconds": 17.35,
+    "expected": [
+      "Within range",
+      "High",
+      "Not assessed"
+    ],
+    "actual": [
+      "Within range",
+      "High",
+      "Not assessed"
+    ],
+    "passed": true
+  }
+]

@@ -1,0 +1,4 @@
+SYNTHETIC LAB REPORT - teaching example only
+Test | Result | Unit | Reference range
+Hemoglobin | 10.2 | g/dL | 12.0-16.0
+Ferritin | 8 | ng/mL | 15-150

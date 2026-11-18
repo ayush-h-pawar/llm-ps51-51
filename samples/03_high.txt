@@ -1,0 +1,4 @@
+SYNTHETIC LAB REPORT - teaching example only
+Test | Result | Unit | Reference range
+Fasting glucose | 118 | mg/dL | 70-99
+Total cholesterol | 225 | mg/dL | <200

@@ -1,0 +1,5 @@
+SYNTHETIC LAB REPORT - teaching example only
+Test | Result | Unit | Reference range
+Hemoglobin | 14.2 | g/dL | 12.0-16.0
+WBC | 7.1 | 10^9/L | 4.0-11.0
+Platelets | 250 | 10^9/L | 150-450

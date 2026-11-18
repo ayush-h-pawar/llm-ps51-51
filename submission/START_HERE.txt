@@ -1,0 +1,11 @@
+PS51 - MEDICAL REPORT EXPLAINER
+Ayush Hiraman Pawar | Roll 51 | ADT24SOCBD036 | LY Core 2
+
+1. Upload Report.pdf, Code.zip, github_link.txt and the screenshots folder into your own class Drive folder.
+2. Report_editable.docx is an editable copy for your own review. The final Report.pdf is the required two-page document.
+3. To run, extract Code.zip. Follow the README: install Python dependencies, start an Ollama model, and run streamlit run app.py.
+4. No API key is needed with the local model. Download model weights separately (they are not in this ZIP).
+5. Read docs/VIVA.md before presenting. Check the report and code so you can explain each step yourself.
+6. All included medical reports and screenshots use synthetic data. This project is not medical advice.
+
+Assignment deadline: 22 November 2026, before 11:30 AM. Confirm the class timezone with your instructor.
