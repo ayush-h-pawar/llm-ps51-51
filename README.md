@@ -132,9 +132,3 @@ The `evidence/` JSON files record real model outputs, expected flags, elapsed ti
 Use reports of at most 5 MB, 10 PDF pages and 14,000 characters. Scanned/image PDFs require external OCR. Long or complex tables can be omitted or misassociated by the model. Exact-source validation reduces invented data but does not prove extraction completeness or correct clinical interpretation. A small general model is not medically validated. Do not use the app for diagnosis, medication decisions or emergencies.
 
 No reports or keys are written to an application database. Streamlit keeps current inputs/results in session memory. Groq mode sends the report to Groq; local modes send it to the configured local server. Operators of those servers may have their own logging settings. Keep this student demo bound to localhost and use synthetic/de-identified reports.
-
-## Submission
-
-The PDF specifies **22 November 2026, before 11:30 AM** (no timezone stated in the assignment; confirm with your class). Upload `Report.pdf`, `Code.zip`, `github_link.txt` and 3–5 screenshots to your individual Drive folder. The optional video is not required. The report describes the local-model workflow actually tested; no API key acquisition or provider-playground use is claimed.
-
-The explanation prompt supplies test names only. Patient values, ranges and flags are withheld from that call; Python appends the comparison sentence. This change prevents the model from contradicting the numerical flag, an issue found during initial testing. One validated extraction retry is allowed when the first response is malformed or untraceable.
